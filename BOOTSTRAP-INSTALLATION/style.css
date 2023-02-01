@@ -1,0 +1,162 @@
+body{
+    font-family: 'Montserrat-Black';
+}
+h1, h2, h3, h4{
+    font-family: 'Montserrat-Black';
+}
+p{
+    color: #8f8f8f;
+  }
+/*heading*/
+.big-heading{
+    size: 3rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+h2{
+     font-size: 3rem;
+    line-height: 1.5;
+}
+/*title section*/
+#title {
+    background-color: #ff4c68;
+    color:#fff;
+}
+.dog{
+    width: 20%;
+    transform: rotate(25deg);
+    position:absolute;
+    right: 20%;
+}
+@media(max-width:998px){
+    .dog{
+        position: static;
+        transform: none;
+        width: 40%;
+    }
+    #title{
+        text-align: center;
+    }
+
+}
+/*nav*/
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar{
+        padding: 0 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 0 10px 10px 0;
+    text-decoration: none;
+}
+.nav-item{
+    padding: 0 18px 0 18px;
+    font-size: 25px;
+}
+.nav-link{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+#navbarSupportedContent{
+    margin-left: 32%;
+}
+/*features section*/
+#features{
+    position: relative;
+    background-color: #fff;
+    padding: 7% 15%;
+  }
+#features h3{
+    font-weight: bolder;
+    word-spacing: 3px;
+  }
+.fe1{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color:#ff4c68;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ef8172;
+}
+/*testimonial*/
+#testimonials{
+   background-color: #ff4c68;
+   color:#fff;
+   text-align: center;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.testi-img{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/*press*/
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/*pricing*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+/*call to action*/
+#cta{
+    background-color: #ff4c68;
+   color:#fff;
+  padding: 7% 15%;
+   text-align: center;
+}
+#cta h3{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+  }
+  .downloadbtn{
+    margin: 5% 3% 5% 0;
+}  
+/*footer*/
+footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+footer .fut{
+    margin: 10px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
